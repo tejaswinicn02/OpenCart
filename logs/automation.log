@@ -1,0 +1,195 @@
+05/17/2026 02:17:54 PM: INFO: ====== WebDriver manager ======
+05/17/2026 02:17:55 PM: INFO: Get LATEST chromedriver version for google-chrome
+05/17/2026 02:17:55 PM: DEBUG: Starting new HTTPS connection (1): googlechromelabs.github.io:443
+05/17/2026 02:17:56 PM: DEBUG: https://googlechromelabs.github.io:443 "GET /chrome-for-testing/latest-patch-versions-per-build.json HTTP/1.1" 200 16670
+05/17/2026 02:17:56 PM: INFO: Get LATEST chromedriver version for google-chrome
+05/17/2026 02:17:56 PM: DEBUG: Starting new HTTPS connection (1): googlechromelabs.github.io:443
+05/17/2026 02:17:56 PM: DEBUG: https://googlechromelabs.github.io:443 "GET /chrome-for-testing/latest-patch-versions-per-build.json HTTP/1.1" 200 16670
+05/17/2026 02:17:56 PM: INFO: Driver [C:\Users\prash\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver.exe] found in cache
+05/17/2026 02:17:57 PM: DEBUG: Skipping Selenium Manager; path to chrome driver specified in Service class: C:\Users\prash\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver.exe
+05/17/2026 02:17:57 PM: DEBUG: Started executable: `C:\Users\prash\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver.exe` in a child process with pid: 33044 using 0 to output -3
+05/17/2026 02:17:57 PM: DEBUG: POST http://localhost:52425/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'goog:chromeOptions': {'extensions': [], 'args': []}}}}
+05/17/2026 02:17:57 PM: DEBUG: Starting new HTTP connection (1): localhost:52425
+05/17/2026 02:17:58 PM: DEBUG: http://localhost:52425 "POST /session HTTP/1.1" 200 0
+05/17/2026 02:17:58 PM: DEBUG: Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"148.0.7778.168","chrome":{"chromedriverVersion":"148.0.7778.167 (65db666ac2cf205fcc36db8bb5b9cd87f94808ac-refs/branch-heads/7778@{#2783})","userDataDir":"C:\\Users\\prash\\AppData\\Local\\Temp\\scoped_dir33044_335081007"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:52428"},"goog:processID":13712,"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"3fc6e3710413cbda919137064a1f7262"}} | headers=HTTPHeaderDict({'Content-Length': '906', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+05/17/2026 02:17:58 PM: DEBUG: Finished Request
+05/17/2026 02:17:58 PM: DEBUG: POST http://localhost:52425/session/3fc6e3710413cbda919137064a1f7262/window/maximize {}
+05/17/2026 02:17:58 PM: DEBUG: http://localhost:52425 "POST /session/3fc6e3710413cbda919137064a1f7262/window/maximize HTTP/1.1" 200 0
+05/17/2026 02:17:58 PM: DEBUG: Remote response: status=200 | data={"value":{"height":768,"width":1296,"x":-7,"y":-7}} | headers=HTTPHeaderDict({'Content-Length': '51', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+05/17/2026 02:17:58 PM: DEBUG: Finished Request
+05/17/2026 02:17:58 PM: INFO: Testing account registration
+05/17/2026 02:17:58 PM: DEBUG: POST http://localhost:52425/session/3fc6e3710413cbda919137064a1f7262/url {'url': 'https://tutorialsninja.com/demo/'}
+05/17/2026 02:17:58 PM: DEBUG: http://localhost:52425 "POST /session/3fc6e3710413cbda919137064a1f7262/url HTTP/1.1" 200 0
+05/17/2026 02:17:58 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+05/17/2026 02:17:58 PM: DEBUG: Finished Request
+05/17/2026 02:17:58 PM: INFO: launching application
+05/17/2026 02:17:58 PM: DEBUG: POST http://localhost:52425/session/3fc6e3710413cbda919137064a1f7262/window/maximize {}
+05/17/2026 02:17:59 PM: DEBUG: http://localhost:52425 "POST /session/3fc6e3710413cbda919137064a1f7262/window/maximize HTTP/1.1" 200 0
+05/17/2026 02:17:59 PM: DEBUG: Remote response: status=200 | data={"value":{"height":768,"width":1296,"x":-7,"y":-7}} | headers=HTTPHeaderDict({'Content-Length': '51', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+05/17/2026 02:17:59 PM: DEBUG: Finished Request
+05/17/2026 02:17:59 PM: DEBUG: POST http://localhost:52425/session/3fc6e3710413cbda919137064a1f7262/element {'using': 'xpath', 'value': "//a[@title='My Account']"}
+05/17/2026 02:17:59 PM: DEBUG: http://localhost:52425 "POST /session/3fc6e3710413cbda919137064a1f7262/element HTTP/1.1" 200 0
+05/17/2026 02:17:59 PM: DEBUG: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.BFD1653DEB75D1A2EDE0EB41BE05881B.d.7D952BDD3E6861292C387EADB3897979.e.10"}} | headers=HTTPHeaderDict({'Content-Length': '126', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+05/17/2026 02:17:59 PM: DEBUG: Finished Request
+05/17/2026 02:17:59 PM: DEBUG: POST http://localhost:52425/session/3fc6e3710413cbda919137064a1f7262/element/f.BFD1653DEB75D1A2EDE0EB41BE05881B.d.7D952BDD3E6861292C387EADB3897979.e.10/click {}
+05/17/2026 02:17:59 PM: DEBUG: http://localhost:52425 "POST /session/3fc6e3710413cbda919137064a1f7262/element/f.BFD1653DEB75D1A2EDE0EB41BE05881B.d.7D952BDD3E6861292C387EADB3897979.e.10/click HTTP/1.1" 200 0
+05/17/2026 02:17:59 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+05/17/2026 02:17:59 PM: DEBUG: Finished Request
+05/17/2026 02:17:59 PM: DEBUG: POST http://localhost:52425/session/3fc6e3710413cbda919137064a1f7262/element {'using': 'link text', 'value': 'Register'}
+05/17/2026 02:17:59 PM: DEBUG: http://localhost:52425 "POST /session/3fc6e3710413cbda919137064a1f7262/element HTTP/1.1" 200 0
+05/17/2026 02:17:59 PM: DEBUG: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.BFD1653DEB75D1A2EDE0EB41BE05881B.d.7D952BDD3E6861292C387EADB3897979.e.34"}} | headers=HTTPHeaderDict({'Content-Length': '126', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+05/17/2026 02:17:59 PM: DEBUG: Finished Request
+05/17/2026 02:17:59 PM: DEBUG: POST http://localhost:52425/session/3fc6e3710413cbda919137064a1f7262/element/f.BFD1653DEB75D1A2EDE0EB41BE05881B.d.7D952BDD3E6861292C387EADB3897979.e.34/click {}
+05/17/2026 02:17:59 PM: DEBUG: http://localhost:52425 "POST /session/3fc6e3710413cbda919137064a1f7262/element/f.BFD1653DEB75D1A2EDE0EB41BE05881B.d.7D952BDD3E6861292C387EADB3897979.e.34/click HTTP/1.1" 200 0
+05/17/2026 02:17:59 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+05/17/2026 02:17:59 PM: DEBUG: Finished Request
+05/17/2026 02:17:59 PM: INFO: Entering details
+05/17/2026 02:17:59 PM: DEBUG: POST http://localhost:52425/session/3fc6e3710413cbda919137064a1f7262/element {'using': 'css selector', 'value': '[name="firstname"]'}
+05/17/2026 02:17:59 PM: DEBUG: http://localhost:52425 "POST /session/3fc6e3710413cbda919137064a1f7262/element HTTP/1.1" 200 0
+05/17/2026 02:17:59 PM: DEBUG: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.BFD1653DEB75D1A2EDE0EB41BE05881B.d.7C197178C750AE008A157FE4F8703F09.e.61"}} | headers=HTTPHeaderDict({'Content-Length': '126', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+05/17/2026 02:17:59 PM: DEBUG: Finished Request
+05/17/2026 02:17:59 PM: DEBUG: POST http://localhost:52425/session/3fc6e3710413cbda919137064a1f7262/element/f.BFD1653DEB75D1A2EDE0EB41BE05881B.d.7C197178C750AE008A157FE4F8703F09.e.61/value {'text': 'John', 'value': ['J', 'o', 'h', 'n']}
+05/17/2026 02:17:59 PM: DEBUG: http://localhost:52425 "POST /session/3fc6e3710413cbda919137064a1f7262/element/f.BFD1653DEB75D1A2EDE0EB41BE05881B.d.7C197178C750AE008A157FE4F8703F09.e.61/value HTTP/1.1" 200 0
+05/17/2026 02:17:59 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+05/17/2026 02:17:59 PM: DEBUG: Finished Request
+05/17/2026 02:17:59 PM: DEBUG: POST http://localhost:52425/session/3fc6e3710413cbda919137064a1f7262/element {'using': 'css selector', 'value': '[name="lastname"]'}
+05/17/2026 02:17:59 PM: DEBUG: http://localhost:52425 "POST /session/3fc6e3710413cbda919137064a1f7262/element HTTP/1.1" 200 0
+05/17/2026 02:17:59 PM: DEBUG: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.BFD1653DEB75D1A2EDE0EB41BE05881B.d.7C197178C750AE008A157FE4F8703F09.e.62"}} | headers=HTTPHeaderDict({'Content-Length': '126', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+05/17/2026 02:17:59 PM: DEBUG: Finished Request
+05/17/2026 02:17:59 PM: DEBUG: POST http://localhost:52425/session/3fc6e3710413cbda919137064a1f7262/element/f.BFD1653DEB75D1A2EDE0EB41BE05881B.d.7C197178C750AE008A157FE4F8703F09.e.62/value {'text': 'Canedy', 'value': ['C', 'a', 'n', 'e', 'd', 'y']}
+05/17/2026 02:18:00 PM: DEBUG: http://localhost:52425 "POST /session/3fc6e3710413cbda919137064a1f7262/element/f.BFD1653DEB75D1A2EDE0EB41BE05881B.d.7C197178C750AE008A157FE4F8703F09.e.62/value HTTP/1.1" 200 0
+05/17/2026 02:18:00 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+05/17/2026 02:18:00 PM: DEBUG: Finished Request
+05/17/2026 02:18:00 PM: DEBUG: POST http://localhost:52425/session/3fc6e3710413cbda919137064a1f7262/element {'using': 'css selector', 'value': '[name="email"]'}
+05/17/2026 02:18:00 PM: DEBUG: http://localhost:52425 "POST /session/3fc6e3710413cbda919137064a1f7262/element HTTP/1.1" 200 0
+05/17/2026 02:18:00 PM: DEBUG: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.BFD1653DEB75D1A2EDE0EB41BE05881B.d.7C197178C750AE008A157FE4F8703F09.e.63"}} | headers=HTTPHeaderDict({'Content-Length': '126', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+05/17/2026 02:18:00 PM: DEBUG: Finished Request
+05/17/2026 02:18:00 PM: DEBUG: POST http://localhost:52425/session/3fc6e3710413cbda919137064a1f7262/element/f.BFD1653DEB75D1A2EDE0EB41BE05881B.d.7C197178C750AE008A157FE4F8703F09.e.63/value {'text': 'yo7x7@gmail.com', 'value': ['y', 'o', '7', 'x', '7', '@', 'g', 'm', 'a', 'i', 'l', '.', 'c', 'o', 'm']}
+05/17/2026 02:18:00 PM: DEBUG: http://localhost:52425 "POST /session/3fc6e3710413cbda919137064a1f7262/element/f.BFD1653DEB75D1A2EDE0EB41BE05881B.d.7C197178C750AE008A157FE4F8703F09.e.63/value HTTP/1.1" 200 0
+05/17/2026 02:18:00 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+05/17/2026 02:18:00 PM: DEBUG: Finished Request
+05/17/2026 02:18:00 PM: DEBUG: POST http://localhost:52425/session/3fc6e3710413cbda919137064a1f7262/element {'using': 'css selector', 'value': '[name="telephone"]'}
+05/17/2026 02:18:00 PM: DEBUG: http://localhost:52425 "POST /session/3fc6e3710413cbda919137064a1f7262/element HTTP/1.1" 200 0
+05/17/2026 02:18:00 PM: DEBUG: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.BFD1653DEB75D1A2EDE0EB41BE05881B.d.7C197178C750AE008A157FE4F8703F09.e.64"}} | headers=HTTPHeaderDict({'Content-Length': '126', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+05/17/2026 02:18:00 PM: DEBUG: Finished Request
+05/17/2026 02:18:00 PM: DEBUG: POST http://localhost:52425/session/3fc6e3710413cbda919137064a1f7262/element/f.BFD1653DEB75D1A2EDE0EB41BE05881B.d.7C197178C750AE008A157FE4F8703F09.e.64/value {'text': '65656565', 'value': ['6', '5', '6', '5', '6', '5', '6', '5']}
+05/17/2026 02:18:00 PM: DEBUG: http://localhost:52425 "POST /session/3fc6e3710413cbda919137064a1f7262/element/f.BFD1653DEB75D1A2EDE0EB41BE05881B.d.7C197178C750AE008A157FE4F8703F09.e.64/value HTTP/1.1" 200 0
+05/17/2026 02:18:00 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+05/17/2026 02:18:00 PM: DEBUG: Finished Request
+05/17/2026 02:18:00 PM: DEBUG: POST http://localhost:52425/session/3fc6e3710413cbda919137064a1f7262/element {'using': 'css selector', 'value': '[name="password"]'}
+05/17/2026 02:18:00 PM: DEBUG: http://localhost:52425 "POST /session/3fc6e3710413cbda919137064a1f7262/element HTTP/1.1" 200 0
+05/17/2026 02:18:00 PM: DEBUG: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.BFD1653DEB75D1A2EDE0EB41BE05881B.d.7C197178C750AE008A157FE4F8703F09.e.65"}} | headers=HTTPHeaderDict({'Content-Length': '126', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+05/17/2026 02:18:00 PM: DEBUG: Finished Request
+05/17/2026 02:18:00 PM: DEBUG: POST http://localhost:52425/session/3fc6e3710413cbda919137064a1f7262/element/f.BFD1653DEB75D1A2EDE0EB41BE05881B.d.7C197178C750AE008A157FE4F8703F09.e.65/value {'text': 'abcxyz', 'value': ['a', 'b', 'c', 'x', 'y', 'z']}
+05/17/2026 02:18:00 PM: DEBUG: http://localhost:52425 "POST /session/3fc6e3710413cbda919137064a1f7262/element/f.BFD1653DEB75D1A2EDE0EB41BE05881B.d.7C197178C750AE008A157FE4F8703F09.e.65/value HTTP/1.1" 200 0
+05/17/2026 02:18:00 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+05/17/2026 02:18:00 PM: DEBUG: Finished Request
+05/17/2026 02:18:00 PM: DEBUG: POST http://localhost:52425/session/3fc6e3710413cbda919137064a1f7262/element {'using': 'css selector', 'value': '[name="confirm"]'}
+05/17/2026 02:18:00 PM: DEBUG: http://localhost:52425 "POST /session/3fc6e3710413cbda919137064a1f7262/element HTTP/1.1" 200 0
+05/17/2026 02:18:00 PM: DEBUG: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.BFD1653DEB75D1A2EDE0EB41BE05881B.d.7C197178C750AE008A157FE4F8703F09.e.66"}} | headers=HTTPHeaderDict({'Content-Length': '126', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+05/17/2026 02:18:00 PM: DEBUG: Finished Request
+05/17/2026 02:18:00 PM: DEBUG: POST http://localhost:52425/session/3fc6e3710413cbda919137064a1f7262/element/f.BFD1653DEB75D1A2EDE0EB41BE05881B.d.7C197178C750AE008A157FE4F8703F09.e.66/value {'text': 'abcxyz', 'value': ['a', 'b', 'c', 'x', 'y', 'z']}
+05/17/2026 02:18:00 PM: DEBUG: http://localhost:52425 "POST /session/3fc6e3710413cbda919137064a1f7262/element/f.BFD1653DEB75D1A2EDE0EB41BE05881B.d.7C197178C750AE008A157FE4F8703F09.e.66/value HTTP/1.1" 200 0
+05/17/2026 02:18:00 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+05/17/2026 02:18:00 PM: DEBUG: Finished Request
+05/17/2026 02:18:00 PM: DEBUG: POST http://localhost:52425/session/3fc6e3710413cbda919137064a1f7262/element {'using': 'css selector', 'value': '[name="agree"]'}
+05/17/2026 02:18:00 PM: DEBUG: http://localhost:52425 "POST /session/3fc6e3710413cbda919137064a1f7262/element HTTP/1.1" 200 0
+05/17/2026 02:18:00 PM: DEBUG: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.BFD1653DEB75D1A2EDE0EB41BE05881B.d.7C197178C750AE008A157FE4F8703F09.e.82"}} | headers=HTTPHeaderDict({'Content-Length': '126', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+05/17/2026 02:18:00 PM: DEBUG: Finished Request
+05/17/2026 02:18:00 PM: DEBUG: POST http://localhost:52425/session/3fc6e3710413cbda919137064a1f7262/element/f.BFD1653DEB75D1A2EDE0EB41BE05881B.d.7C197178C750AE008A157FE4F8703F09.e.82/click {}
+05/17/2026 02:18:00 PM: DEBUG: http://localhost:52425 "POST /session/3fc6e3710413cbda919137064a1f7262/element/f.BFD1653DEB75D1A2EDE0EB41BE05881B.d.7C197178C750AE008A157FE4F8703F09.e.82/click HTTP/1.1" 200 0
+05/17/2026 02:18:00 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+05/17/2026 02:18:00 PM: DEBUG: Finished Request
+05/17/2026 02:18:00 PM: DEBUG: POST http://localhost:52425/session/3fc6e3710413cbda919137064a1f7262/element {'using': 'xpath', 'value': "//input[@value='Continue']"}
+05/17/2026 02:18:00 PM: DEBUG: http://localhost:52425 "POST /session/3fc6e3710413cbda919137064a1f7262/element HTTP/1.1" 200 0
+05/17/2026 02:18:00 PM: DEBUG: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.BFD1653DEB75D1A2EDE0EB41BE05881B.d.7C197178C750AE008A157FE4F8703F09.e.83"}} | headers=HTTPHeaderDict({'Content-Length': '126', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+05/17/2026 02:18:00 PM: DEBUG: Finished Request
+05/17/2026 02:18:00 PM: DEBUG: POST http://localhost:52425/session/3fc6e3710413cbda919137064a1f7262/element/f.BFD1653DEB75D1A2EDE0EB41BE05881B.d.7C197178C750AE008A157FE4F8703F09.e.83/click {}
+05/17/2026 02:18:05 PM: DEBUG: http://localhost:52425 "POST /session/3fc6e3710413cbda919137064a1f7262/element/f.BFD1653DEB75D1A2EDE0EB41BE05881B.d.7C197178C750AE008A157FE4F8703F09.e.83/click HTTP/1.1" 200 0
+05/17/2026 02:18:05 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+05/17/2026 02:18:05 PM: DEBUG: Finished Request
+05/17/2026 02:18:05 PM: DEBUG: POST http://localhost:52425/session/3fc6e3710413cbda919137064a1f7262/element {'using': 'xpath', 'value': "//h1[normalize-space()='Your Account Has Been Created!']"}
+05/17/2026 02:18:05 PM: DEBUG: http://localhost:52425 "POST /session/3fc6e3710413cbda919137064a1f7262/element HTTP/1.1" 200 0
+05/17/2026 02:18:05 PM: DEBUG: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.BFD1653DEB75D1A2EDE0EB41BE05881B.d.2EE670F5A45A8676FCF68AC070FC499A.e.325"}} | headers=HTTPHeaderDict({'Content-Length': '127', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+05/17/2026 02:18:05 PM: DEBUG: Finished Request
+05/17/2026 02:18:05 PM: DEBUG: GET http://localhost:52425/session/3fc6e3710413cbda919137064a1f7262/element/f.BFD1653DEB75D1A2EDE0EB41BE05881B.d.2EE670F5A45A8676FCF68AC070FC499A.e.325/text {}
+05/17/2026 02:18:05 PM: DEBUG: http://localhost:52425 "GET /session/3fc6e3710413cbda919137064a1f7262/element/f.BFD1653DEB75D1A2EDE0EB41BE05881B.d.2EE670F5A45A8676FCF68AC070FC499A.e.325/text HTTP/1.1" 200 0
+05/17/2026 02:18:05 PM: DEBUG: Remote response: status=200 | data={"value":"Your Account Has Been Created!"} | headers=HTTPHeaderDict({'Content-Length': '42', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+05/17/2026 02:18:05 PM: DEBUG: Finished Request
+05/17/2026 02:18:05 PM: DEBUG: DELETE http://localhost:52425/session/3fc6e3710413cbda919137064a1f7262/window {}
+05/17/2026 02:18:05 PM: DEBUG: http://localhost:52425 "DELETE /session/3fc6e3710413cbda919137064a1f7262/window HTTP/1.1" 200 0
+05/17/2026 02:18:05 PM: DEBUG: Remote response: status=200 | data={"value":[]} | headers=HTTPHeaderDict({'Content-Length': '12', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+05/17/2026 02:18:05 PM: DEBUG: Finished Request
+05/17/2026 02:18:05 PM: INFO: Account registration test passed
+05/17/2026 02:36:41 PM: INFO: ====== WebDriver manager ======
+05/17/2026 02:36:42 PM: INFO: Get LATEST chromedriver version for google-chrome
+05/17/2026 02:36:43 PM: INFO: Get LATEST chromedriver version for google-chrome
+05/17/2026 02:36:43 PM: INFO: Driver [C:\Users\prash\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver.exe] found in cache
+05/17/2026 02:36:45 PM: INFO: Testing account registration
+05/17/2026 02:36:46 PM: INFO: launching application
+05/17/2026 02:36:46 PM: INFO: Entering details
+05/17/2026 02:36:49 PM: ERROR: Account registration failed
+05/17/2026 02:38:37 PM: INFO: ====== WebDriver manager ======
+05/17/2026 02:38:38 PM: INFO: Get LATEST chromedriver version for google-chrome
+05/17/2026 02:38:39 PM: INFO: Get LATEST chromedriver version for google-chrome
+05/17/2026 02:38:39 PM: INFO: Driver [C:\Users\prash\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver.exe] found in cache
+05/17/2026 02:38:41 PM: INFO: Testing account registration
+05/17/2026 02:38:42 PM: INFO: launching application
+05/17/2026 02:38:43 PM: INFO: Entering details
+05/17/2026 02:38:45 PM: INFO: Account registration test passed
+05/17/2026 03:39:55 PM: INFO: ====== WebDriver manager ======
+05/17/2026 03:39:58 PM: INFO: Get LATEST edgedriver version for Edge 148.0.3967
+05/17/2026 03:41:47 PM: INFO: xdist worker is: gw0
+05/17/2026 03:41:47 PM: INFO: ====== WebDriver manager ======
+05/17/2026 03:41:49 PM: INFO: Get LATEST chromedriver version for google-chrome
+05/17/2026 03:41:50 PM: INFO: Get LATEST chromedriver version for google-chrome
+05/17/2026 03:41:51 PM: INFO: There is no [win64] chromedriver "148.0.7778.167" for browser google-chrome "148.0.7778" in cache
+05/17/2026 03:41:51 PM: INFO: Get LATEST chromedriver version for google-chrome
+05/17/2026 03:41:52 PM: INFO: WebDriver version 148.0.7778.167 selected
+05/17/2026 03:41:52 PM: INFO: Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.167/win32/chromedriver-win32.zip
+05/17/2026 03:41:52 PM: INFO: About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.167/win32/chromedriver-win32.zip
+05/17/2026 03:41:53 PM: INFO: Driver downloading response is 200
+05/17/2026 03:41:54 PM: INFO: Get LATEST chromedriver version for google-chrome
+05/17/2026 03:41:55 PM: INFO: Driver has been saved in cache [C:\Users\prash\.wdm\gw0\drivers\chromedriver\win64\148.0.7778.167]
+05/17/2026 03:41:57 PM: INFO: Testing account registration
+05/17/2026 03:41:58 PM: INFO: launching application
+05/17/2026 03:41:59 PM: INFO: Entering details
+05/17/2026 03:42:01 PM: INFO: Account registration test passed
+05/17/2026 04:20:48 PM: INFO: ====== WebDriver manager ======
+05/17/2026 04:20:50 PM: INFO: Get LATEST chromedriver version for google-chrome
+05/17/2026 04:20:52 PM: INFO: Get LATEST chromedriver version for google-chrome
+05/17/2026 04:20:53 PM: INFO: Driver [C:\Users\prash\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver.exe] found in cache
+05/17/2026 04:20:54 PM: INFO: Testing account registration
+05/17/2026 04:20:58 PM: INFO: launching application
+05/17/2026 04:20:59 PM: INFO: Entering details
+05/17/2026 04:21:02 PM: INFO: Account registration test passed
+05/17/2026 07:12:09 PM: INFO: ====== WebDriver manager ======
+05/17/2026 07:12:11 PM: INFO: Get LATEST chromedriver version for google-chrome
+05/17/2026 07:12:12 PM: INFO: Get LATEST chromedriver version for google-chrome
+05/17/2026 07:12:13 PM: INFO: Driver [C:\Users\prash\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver.exe] found in cache
+05/17/2026 07:12:15 PM: INFO: User details input
+05/17/2026 07:15:02 PM: INFO: ====== WebDriver manager ======
+05/17/2026 07:15:04 PM: INFO: Get LATEST chromedriver version for google-chrome
+05/17/2026 07:15:05 PM: INFO: Get LATEST chromedriver version for google-chrome
+05/17/2026 07:15:06 PM: INFO: Driver [C:\Users\prash\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver.exe] found in cache
+05/17/2026 07:15:08 PM: INFO: User details input
+05/17/2026 07:16:09 PM: INFO: ====== WebDriver manager ======
+05/17/2026 07:16:11 PM: INFO: Get LATEST chromedriver version for google-chrome
+05/17/2026 07:16:12 PM: INFO: Get LATEST chromedriver version for google-chrome
+05/17/2026 07:16:13 PM: INFO: Driver [C:\Users\prash\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver.exe] found in cache
+05/17/2026 07:16:15 PM: INFO: User details input
+05/17/2026 07:18:12 PM: INFO: ====== WebDriver manager ======
+05/17/2026 07:18:14 PM: INFO: Get LATEST chromedriver version for google-chrome
+05/17/2026 07:18:14 PM: INFO: Get LATEST chromedriver version for google-chrome
+05/17/2026 07:18:15 PM: INFO: Driver [C:\Users\prash\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver.exe] found in cache
+05/17/2026 07:18:17 PM: INFO: User details input
+05/17/2026 07:18:43 PM: INFO: ====== WebDriver manager ======
+05/17/2026 07:18:45 PM: INFO: Get LATEST chromedriver version for google-chrome
+05/17/2026 07:18:46 PM: INFO: Get LATEST chromedriver version for google-chrome
+05/17/2026 07:18:47 PM: INFO: Driver [C:\Users\prash\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver.exe] found in cache
+05/17/2026 07:18:48 PM: INFO: User details input
+05/17/2026 07:20:11 PM: INFO: ====== WebDriver manager ======
+05/17/2026 07:20:13 PM: INFO: Get LATEST chromedriver version for google-chrome
+05/17/2026 07:20:14 PM: INFO: Get LATEST chromedriver version for google-chrome
+05/17/2026 07:20:15 PM: INFO: Driver [C:\Users\prash\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver.exe] found in cache
+05/17/2026 07:20:16 PM: INFO: User details input
