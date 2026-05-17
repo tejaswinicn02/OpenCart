@@ -1,9 +1,12 @@
+from  utilities import randomeString
 from pageObjects.HomePage import HomePage
 from pageObjects.AccountRegistrationPage import AccountRegistrationPage
-from utilities import randomeString
+import os
+from utilities.readProperties import ReadConfig
+
 
 class Test_001_AccountReg:
-    baseURL ="https://tutorialsninja.com/demo/"
+    baseURL = ReadConfig.getApplicationURL()
 
     def test_account_reg(self, setup):
         self.driver = setup
@@ -25,8 +28,12 @@ class Test_001_AccountReg:
         self.regpage.setPrivacyPolicy()
         self.regpage.clickContinue()
         self.confmsg = self.regpage.getconfirmationmsg()
-        self.driver.close()
+
         if self.confmsg == "Your Account Has Been Created!":
+            self.driver.close()
             assert True
         else:
+            self.driver.save_screenshot(os.path.abspath(os.curdir) + "\\screenshots\\" + "test_account_reg.png")
+            self.driver.close()
             assert False
+
