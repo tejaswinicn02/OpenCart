@@ -4,6 +4,7 @@ from pageObjects.AccountRegistrationPage import AccountRegistrationPage
 import os
 from utilities.readProperties import ReadConfig
 from utilities.customLogger import LogGen
+import pytest
 
 class Test_001_AccountReg:
     baseURL = ReadConfig.getApplicationURL()

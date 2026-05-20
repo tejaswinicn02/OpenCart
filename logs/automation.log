@@ -247,3 +247,24 @@
 05/19/2026 03:48:31 PM: INFO: Driver [C:\Users\tejaswini.cn\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win32/chromedriver.exe] found in cache by browser version
 05/19/2026 03:48:32 PM: INFO: **** Starting test_003_login_Datadriven *******
 05/19/2026 03:48:52 PM: INFO: ******* End of test_003_login_Datadriven **********
+05/20/2026 10:28:07 AM: INFO: ====== WebDriver manager ======
+05/20/2026 10:28:13 AM: INFO: Get LATEST chromedriver version for google-chrome
+05/20/2026 10:28:15 AM: INFO: There is no [win64] chromedriver "148.0.7778.178" for browser google-chrome "148.0.7778" in cache
+05/20/2026 10:28:18 AM: INFO: There is no [win64] chromedriver "148.0.7778.178" for browser google-chrome "148.0.7778" in cache
+05/20/2026 10:28:18 AM: INFO: Get LATEST chromedriver version for google-chrome
+05/20/2026 10:28:22 AM: INFO: WebDriver version 148.0.7778.178 selected
+05/20/2026 10:28:22 AM: INFO: Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/win64/chromedriver-win64.zip
+05/20/2026 10:28:22 AM: INFO: About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/win64/chromedriver-win64.zip
+05/20/2026 10:28:23 AM: INFO: Driver downloading response is 200
+05/20/2026 10:28:32 AM: INFO: Driver has been saved in cache [C:\Users\tejaswini.cn\.wdm\drivers\chromedriver\win64\148.0.7778.178]
+05/20/2026 10:28:36 AM: INFO: User details input
+05/20/2026 10:29:47 AM: INFO: ====== WebDriver manager ======
+05/20/2026 10:29:50 AM: INFO: Driver [C:\Users\tejaswini.cn\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+05/20/2026 10:29:52 AM: INFO: Testing account registration
+05/20/2026 10:29:57 AM: INFO: launching application
+05/20/2026 10:29:58 AM: INFO: Entering details
+05/20/2026 10:30:01 AM: INFO: Account registration test passed
+05/20/2026 10:30:04 AM: INFO: ====== WebDriver manager ======
+05/20/2026 10:30:07 AM: INFO: Driver [C:\Users\tejaswini.cn\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+05/20/2026 10:30:09 AM: INFO: User details input
+05/20/2026 10:30:18 AM: ERROR: account login failed
