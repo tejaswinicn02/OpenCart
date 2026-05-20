@@ -6,7 +6,7 @@ class LoginPage():
     txt_email_xpath = "//input[@id='input-email']"
     txt_password_xpath = "//input[@id='input-password']"
     btn_login_xpath = "//input[@value='Login']"
-    msg_myaccount_xpath = "//h2[text()='My Account']"
+    msg_myaccount_xpath = "/html[1]/body[1]/div[2]/div[1]/div[1]/h2[1]"
 
 
     def __init__(self, driver):

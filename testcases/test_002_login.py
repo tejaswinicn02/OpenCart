@@ -13,7 +13,7 @@ class Test_Login():
     user=ReadConfig.getUseremail()
     password=ReadConfig.getPassword()
 
-
+    @pytest.mark.sanity
     def test_login(self,setup):
         self.logger.info("User details input")
         self.driver=setup
@@ -34,7 +34,9 @@ class Test_Login():
             assert True
         else:
             self.driver.save_screenshot(os.path.abspath(os.curdir)+"\\screenshots\\"+"test_login.png")
+            self.logger.error("account login failed")
             assert False
+
 
 
 

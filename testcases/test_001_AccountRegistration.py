@@ -9,6 +9,7 @@ class Test_001_AccountReg:
     baseURL = ReadConfig.getApplicationURL()
     logger=LogGen.loggen()
 
+    @pytest.mark.regression
     def test_account_reg(self, setup):
         self.logger.info("Testing account registration")
         self.driver = setup
