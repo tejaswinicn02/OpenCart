@@ -6,7 +6,9 @@ from datetime import datetime
 from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.firefox import GeckoDriverManager
 from webdriver_manager.microsoft import EdgeChromiumDriverManager
-from utilities.readProperties import readProperties
+from pageObjects.HomePage import HomePage
+from pageObjects.LoginPage import LoginPage
+from utilities.readProperties import ReadConfig
 import os
 import pytest
 
@@ -38,13 +40,13 @@ def setup(request):
     driver.maximize_window()
     yield driver
     driver.quit()
-from pageObjects.HomePage import HomePage
-from pageObjects.LoginPage import LoginPage
-from utilities.readProperties import ReadConfig
 
 
-def login(self, driver):
+@pytest.fixture()
+def login(setup):
+    driver=setup
     driver.get(ReadConfig.getApplicationURL())
+
 
     hp = HomePage(driver)
     hp.clickMyAccount()

@@ -11,7 +11,7 @@ class Test_Login_DDT():
     baseURL = ReadConfig.getApplicationURL()
     logger = LogGen.loggen()  # Logger
 
-    path = os.path.abspath(os.curdir)+"\\testdata\\Opencart_LoginData.xlsx"
+    # path = os.path.abspath(os.curdir)+"\\testdata\\Opencart_LoginData.xlsx"
 
     def test_login_ddt(self,setup):
         self.logger.info("**** Starting test_003_login_Datadriven *******")

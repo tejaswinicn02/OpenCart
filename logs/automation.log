@@ -268,3 +268,31 @@
 05/20/2026 10:30:07 AM: INFO: Driver [C:\Users\tejaswini.cn\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
 05/20/2026 10:30:09 AM: INFO: User details input
 05/20/2026 10:30:18 AM: ERROR: account login failed
+05/22/2026 02:48:02 PM: INFO: ====== WebDriver manager ======
+05/22/2026 02:48:08 PM: INFO: Get LATEST chromedriver version for google-chrome
+05/22/2026 02:48:12 PM: INFO: Get LATEST chromedriver version for google-chrome
+05/22/2026 02:48:15 PM: INFO: WebDriver version 148.0.7778.178 selected
+05/22/2026 02:48:15 PM: INFO: Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/win64/chromedriver-win64.zip
+05/22/2026 02:48:15 PM: INFO: About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/win64/chromedriver-win64.zip
+05/22/2026 02:48:16 PM: INFO: Driver downloading response is 200
+05/22/2026 02:48:23 PM: INFO: Driver has been saved in cache [C:\Users\tejaswini.cn\.wdm\drivers\chromedriver\win64\148.0.7778.178]
+05/22/2026 02:54:04 PM: INFO: ====== WebDriver manager ======
+05/22/2026 02:54:07 PM: INFO: Driver [C:\Users\tejaswini.cn\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+05/22/2026 03:33:19 PM: INFO: ====== WebDriver manager ======
+05/22/2026 03:33:22 PM: INFO: Driver [C:\Users\tejaswini.cn\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+05/22/2026 03:34:22 PM: INFO: ====== WebDriver manager ======
+05/22/2026 03:34:25 PM: INFO: Driver [C:\Users\tejaswini.cn\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+05/22/2026 03:36:39 PM: INFO: ====== WebDriver manager ======
+05/22/2026 03:36:42 PM: INFO: Driver [C:\Users\tejaswini.cn\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+05/22/2026 03:46:23 PM: INFO: ====== WebDriver manager ======
+05/22/2026 03:46:26 PM: INFO: Driver [C:\Users\tejaswini.cn\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+05/22/2026 05:36:44 PM: INFO: ====== WebDriver manager ======
+05/22/2026 05:36:47 PM: INFO: Driver [C:\Users\tejaswini.cn\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+05/22/2026 05:36:49 PM: INFO: **** Starting test_003_login_Datadriven *******
+05/22/2026 05:37:17 PM: INFO: ******* End of test_003_login_Datadriven **********
+05/22/2026 05:39:52 PM: INFO: ====== WebDriver manager ======
+05/22/2026 05:39:55 PM: INFO: Driver [C:\Users\tejaswini.cn\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+05/22/2026 05:43:27 PM: INFO: ====== WebDriver manager ======
+05/22/2026 05:43:31 PM: INFO: Driver [C:\Users\tejaswini.cn\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+05/22/2026 05:46:28 PM: INFO: ====== WebDriver manager ======
+05/22/2026 05:46:34 PM: INFO: Driver [C:\Users\tejaswini.cn\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
