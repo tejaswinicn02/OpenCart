@@ -13,7 +13,7 @@ class Test_Login():
     user=ReadConfig.getUseremail()
     password=ReadConfig.getPassword()
 
-    @pytest.mark.sanity
+    @pytest.fixture()
     def test_login(self,setup):
         self.logger.info("User details input")
         self.driver=setup

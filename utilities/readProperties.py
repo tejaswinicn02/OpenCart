@@ -1,6 +1,9 @@
 import configparser
 import os
 
+import pageObjects.HomePage
+import pageObjects.LoginPage
+
 config = configparser.RawConfigParser()
 config.read(os.path.abspath(os.curdir)+'\\configurations\\config.ini')
 
@@ -21,7 +24,8 @@ class ReadConfig():
         return password
 
 
+
+
 #Testing above methods - optional Code
 #print(ReadConfig.getApplicationURL())
 #print(ReadConfig.getUseremail())
-

@@ -268,3 +268,52 @@
 05/20/2026 10:30:07 AM: INFO: Driver [C:\Users\tejaswini.cn\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
 05/20/2026 10:30:09 AM: INFO: User details input
 05/20/2026 10:30:18 AM: ERROR: account login failed
+05/23/2026 10:40:35 AM: INFO: ====== WebDriver manager ======
+05/23/2026 10:40:36 AM: INFO: Get LATEST chromedriver version for google-chrome
+05/23/2026 10:40:37 AM: INFO: There is no [win64] chromedriver "148.0.7778.178" for browser google-chrome "148.0.7778" in cache
+05/23/2026 10:40:38 AM: INFO: There is no [win64] chromedriver "148.0.7778.178" for browser google-chrome "148.0.7778" in cache
+05/23/2026 10:40:38 AM: INFO: Get LATEST chromedriver version for google-chrome
+05/23/2026 10:40:39 AM: INFO: WebDriver version 148.0.7778.178 selected
+05/23/2026 10:40:39 AM: INFO: Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/win64/chromedriver-win64.zip
+05/23/2026 10:40:39 AM: INFO: About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/win64/chromedriver-win64.zip
+05/23/2026 10:40:40 AM: INFO: Driver downloading response is 200
+05/23/2026 10:40:46 AM: INFO: Driver has been saved in cache [C:\Users\prash\.wdm\drivers\chromedriver\win64\148.0.7778.178]
+05/23/2026 10:45:37 AM: INFO: ====== WebDriver manager ======
+05/23/2026 10:45:37 AM: INFO: Driver [C:\Users\prash\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+05/23/2026 12:15:44 PM: INFO: ====== WebDriver manager ======
+05/23/2026 12:15:45 PM: INFO: Driver [C:\Users\prash\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+05/23/2026 12:22:26 PM: INFO: ====== WebDriver manager ======
+05/23/2026 12:22:28 PM: INFO: Driver [C:\Users\prash\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+05/23/2026 12:22:45 PM: INFO: ====== WebDriver manager ======
+05/23/2026 12:22:46 PM: INFO: Driver [C:\Users\prash\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+05/23/2026 12:34:24 PM: INFO: ====== WebDriver manager ======
+05/23/2026 12:34:25 PM: INFO: Driver [C:\Users\prash\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+05/23/2026 12:36:16 PM: INFO: ====== WebDriver manager ======
+05/23/2026 12:36:17 PM: INFO: Driver [C:\Users\prash\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+05/23/2026 12:36:56 PM: INFO: ====== WebDriver manager ======
+05/23/2026 12:36:56 PM: INFO: Driver [C:\Users\prash\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+05/23/2026 12:38:26 PM: INFO: ====== WebDriver manager ======
+05/23/2026 12:38:27 PM: INFO: Driver [C:\Users\prash\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+05/23/2026 12:39:03 PM: INFO: ====== WebDriver manager ======
+05/23/2026 12:39:04 PM: INFO: Driver [C:\Users\prash\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+05/23/2026 12:40:10 PM: INFO: ====== WebDriver manager ======
+05/23/2026 12:40:11 PM: INFO: Driver [C:\Users\prash\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+05/23/2026 12:42:21 PM: INFO: ====== WebDriver manager ======
+05/23/2026 12:42:22 PM: INFO: Driver [C:\Users\prash\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+05/23/2026 12:45:01 PM: INFO: ====== WebDriver manager ======
+05/23/2026 12:45:02 PM: INFO: Driver [C:\Users\prash\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+05/23/2026 12:46:43 PM: INFO: ====== WebDriver manager ======
+05/23/2026 12:46:43 PM: INFO: Driver [C:\Users\prash\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+05/23/2026 12:47:44 PM: INFO: ====== WebDriver manager ======
+05/23/2026 12:47:44 PM: INFO: Driver [C:\Users\prash\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+05/23/2026 12:47:50 PM: INFO: login successfully
+05/23/2026 12:50:26 PM: INFO: ====== WebDriver manager ======
+05/23/2026 12:50:27 PM: INFO: Driver [C:\Users\prash\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+05/23/2026 12:50:34 PM: INFO: login successfully
+05/23/2026 01:13:57 PM: INFO: ====== WebDriver manager ======
+05/23/2026 01:13:58 PM: INFO: Driver [C:\Users\prash\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+05/23/2026 01:15:21 PM: INFO: ====== WebDriver manager ======
+05/23/2026 01:15:22 PM: INFO: Driver [C:\Users\prash\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+05/23/2026 01:15:28 PM: INFO: login successfully
+05/23/2026 01:15:29 PM: INFO: logout successfully
+05/23/2026 01:15:29 PM: INFO: logout successfully

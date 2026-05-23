@@ -6,7 +6,10 @@ from datetime import datetime
 from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.firefox import GeckoDriverManager
 from webdriver_manager.microsoft import EdgeChromiumDriverManager
-from utilities.readProperties import readProperties
+
+from pageObjects.HomePage import HomePage
+from pageObjects.LoginPage import LoginPage
+from utilities.readProperties import ReadConfig
 import os
 import pytest
 
@@ -38,27 +41,9 @@ def setup(request):
     driver.maximize_window()
     yield driver
     driver.quit()
-from pageObjects.HomePage import HomePage
-from pageObjects.LoginPage import LoginPage
-from utilities.readProperties import ReadConfig
 
 
-def login(self, driver):
-    driver.get(ReadConfig.getApplicationURL())
-
-    hp = HomePage(driver)
-    hp.clickMyAccount()
-    hp.clickLogin()
-
-    lp = LoginPage(driver)
-    lp.setEmail(ReadConfig.getUseremail())
-    lp.setPassword(ReadConfig.getPassword())
-    lp.clicklogin()
-
-    return lp
-
-
-###################pytest HTML Report#######
+#################pytest HTML Report#######
 # It is hook for Adding Environment info to HTML Report
 def pytest_configure(config):
     config._metadata['Project Name'] = 'Opencart'
@@ -77,5 +62,24 @@ def pytest_configure(config):
     config.option.htmlpath = os.path.abspath(os.curdir)+"\\reports\\"+datetime.now().strftime("%d-%m-%Y %H-%M-%S")+".html"
 
 
-class ReadConfig:
-    pass
+@pytest.fixture(scope="session")
+def login(setup):
+    driver = setup
+
+    baseUrl = ReadConfig.getApplicationURL()
+    user = ReadConfig.getUseremail()
+    password = ReadConfig.getPassword()
+
+    driver.get(baseUrl)
+    driver.maximize_window()
+
+    hp = HomePage(driver)
+    hp.clickMyAccount()
+    hp.clickLogin()
+
+    lp = LoginPage(driver)
+    lp.setEmail(user)
+    lp.setPassword(password)
+    lp.clicklogin()
+
+    return driver
