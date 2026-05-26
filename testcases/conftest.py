@@ -62,7 +62,7 @@ def pytest_configure(config):
     config.option.htmlpath = os.path.abspath(os.curdir)+"\\reports\\"+datetime.now().strftime("%d-%m-%Y %H-%M-%S")+".html"
 
 
-@pytest.fixture(scope="session")
+@pytest.fixture()
 def login(setup):
     driver = setup
 

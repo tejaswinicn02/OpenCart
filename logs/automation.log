@@ -317,3 +317,36 @@
 05/23/2026 01:15:28 PM: INFO: login successfully
 05/23/2026 01:15:29 PM: INFO: logout successfully
 05/23/2026 01:15:29 PM: INFO: logout successfully
+05/25/2026 05:06:12 PM: INFO: ====== WebDriver manager ======
+05/25/2026 05:06:14 PM: INFO: Get LATEST chromedriver version for google-chrome
+05/25/2026 05:06:16 PM: INFO: Get LATEST chromedriver version for google-chrome
+05/25/2026 05:06:18 PM: INFO: WebDriver version 148.0.7778.178 selected
+05/25/2026 05:06:18 PM: INFO: Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/win64/chromedriver-win64.zip
+05/25/2026 05:06:18 PM: INFO: About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/win64/chromedriver-win64.zip
+05/25/2026 05:06:19 PM: INFO: Driver downloading response is 200
+05/25/2026 05:06:25 PM: INFO: Driver has been saved in cache [C:\Users\prash\.wdm\drivers\chromedriver\win64\148.0.7778.178]
+05/25/2026 05:06:31 PM: INFO: login successfully
+05/25/2026 05:06:34 PM: INFO: ====== WebDriver manager ======
+05/25/2026 05:06:35 PM: INFO: Driver [C:\Users\prash\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+05/25/2026 05:06:42 PM: INFO: User logged in successfully
+05/25/2026 05:06:44 PM: INFO: Browser closed without logout
+05/25/2026 05:06:48 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=57485): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/0430283eeb6c17e99e57f3e89a4d0e84/url
+05/25/2026 05:06:53 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=57485): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/0430283eeb6c17e99e57f3e89a4d0e84/url
+05/25/2026 05:06:57 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=57485): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/0430283eeb6c17e99e57f3e89a4d0e84/url
+05/25/2026 05:07:05 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=57485): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/0430283eeb6c17e99e57f3e89a4d0e84
+05/25/2026 05:07:09 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=57485): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/0430283eeb6c17e99e57f3e89a4d0e84
+05/25/2026 05:07:13 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=57485): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/0430283eeb6c17e99e57f3e89a4d0e84
+05/25/2026 05:09:21 PM: INFO: ====== WebDriver manager ======
+05/25/2026 05:09:22 PM: INFO: Driver [C:\Users\prash\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+05/25/2026 05:09:29 PM: INFO: ====== WebDriver manager ======
+05/25/2026 05:09:30 PM: INFO: Driver [C:\Users\prash\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+05/25/2026 05:09:35 PM: INFO: User logged in successfully
+05/25/2026 05:09:37 PM: INFO: Browser closed without logout
+05/25/2026 05:09:41 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=54343): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/75b4f1ab67f58d7a91f5a454b9adc572/url
+05/25/2026 05:09:45 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=54343): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/75b4f1ab67f58d7a91f5a454b9adc572/url
+05/25/2026 05:09:49 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=54343): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/75b4f1ab67f58d7a91f5a454b9adc572/url
+05/25/2026 05:09:57 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=54343): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/75b4f1ab67f58d7a91f5a454b9adc572
+05/25/2026 05:10:02 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=54343): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/75b4f1ab67f58d7a91f5a454b9adc572
+05/25/2026 05:10:06 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=54343): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/75b4f1ab67f58d7a91f5a454b9adc572
+05/25/2026 05:11:20 PM: INFO: ====== WebDriver manager ======
+05/25/2026 05:11:21 PM: INFO: Driver [C:\Users\prash\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version

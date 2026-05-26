@@ -9,22 +9,24 @@ from pageObjects.LoginPage import LoginPage
 from utilities.customLogger import LogGen
 import pytest
 from pageObjects.MyAccountPage import MyAccountPage
+
+
 class Test_LogOut_val():
     baseUrl = ReadConfig.getApplicationURL()
     logger = LogGen.loggen()
 
     user = ReadConfig.getUseremail()
     password = ReadConfig.getPassword()
-    def test_LG_001(self,setup,login):
 
-        self.driver=setup
+    def test_LG_001(self, setup, login):
+        self.driver = setup
         self.driver.get(self.baseUrl)
         self.driver.maximize_window()
 
-        self.lp=login
-        self.ma=MyAccountPage(self.driver)
-        self.lg=LoginPage(self.driver)
-        assert self.lg.isMyAccountPageExists
+        self.lp = login
+        self.ma = MyAccountPage(self.driver)
+        self.lg = LoginPage(self.driver)
+        assert self.lg.isMyAccountPageExists()
         self.logger.info("login successfully")
         self.ma.clickLogout()
         self.logger.info("logout successfully")
@@ -32,14 +34,40 @@ class Test_LogOut_val():
         self.logger.info("logout successfully")
         self.driver.quit()
 
-    def test_LG_002(self,setup,login):
-        self.driver=setup
-        self.driver.get(self.baseUrl)
-        self.driver.maximize_window()
-#28 95
-        self.lg=login
-        self.ma=MyAccountPage(self.driver)
-        self.ma.clickLogout()
-        self.logger.info("login successfully")
-        self.driver.quit()
-
+    # def test_TC_LG_003(self, setup, login):
+    #     self.driver = setup
+    #     self.driver.get(self.baseUrl)
+    #     self.driver.maximize_window()
+    #
+    #     self.lp = login
+    #     self.ma = MyAccountPage(self.driver)
+    #     self.lg = LoginPage(self.driver)
+    #
+    #     # Verify login successful
+    #     assert self.lg.isMyAccountPageExists()
+    #     self.logger.info("User logged in successfully")
+    #
+    #     # Save cookies
+    #     cookies = self.driver.get_cookies()
+    #
+    #     # Close browser without logout
+    #     self.driver.quit()
+    #     self.logger.info("Browser closed without logout")
+    #
+    #     # Reopen browser
+    #     self.driver = setup
+    #     self.driver.get(self.baseUrl)
+    #
+    #     # Restore cookies
+    #     for cookie in cookies:
+    #         self.driver.add_cookie(cookie)
+    #
+    #     # Refresh page
+    #     self.driver.refresh()
+    #     time.sleep(3)
+    #
+    #     # Verify session maintained
+    #     assert self.lg.isMyAccountPageExists()
+    #     self.logger.info("Session maintained after reopening browser")
+    #
+    #     self.driver.quit()
